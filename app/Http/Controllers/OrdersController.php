@@ -135,7 +135,7 @@ class OrdersController extends Controller
      * @param  Request  $id
      * @return Response
      */
-    public function accept($id)
+    public function accept($id,Request $request)
     {
 		// get login user detail
 		$loginuser = $request->get('loginuser');
